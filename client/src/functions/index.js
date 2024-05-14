@@ -1,5 +1,5 @@
 import axios from "axios";
-const base_url = "http://localhost:8000";
+const base_url = "https://task-manager-7voj.onrender.com";
 
 export const fetchData = async (token) => {
   const res = await axios.get(`${base_url}/Gettask`, {
